@@ -1,0 +1,12 @@
+{
+    "name": "xenyo/fontawesome",
+    "description": "A subset of font awesome icons for Drupal sites.",
+    "type": "drupal-library",
+    "authors": [
+        {
+            "name": "Parkle Lee",
+            "email": "parkle.lee@xenyo.com"
+        }
+    ],
+    "require": {}
+}
