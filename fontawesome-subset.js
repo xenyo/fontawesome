@@ -1,12 +1,13 @@
+// Import Node.js modules
+import fs from 'fs';
+
+// Import npm modules
 import { fontawesomeSubset } from 'fontawesome-subset';
+import yaml from 'yaml';
 
-const subset = {
-  regular: [
-    'magnifying-glass',
-    'question',
-  ],
-};
+// Parse subset yml
+const file = fs.readFileSync('fontawesome-subset.yml', 'utf8');
+const subset = yaml.parse(file);
 
-const outputDir = 'webfonts';
-
-fontawesomeSubset(subset, outputDir, { package: 'pro' });
+// Run subsetter
+fontawesomeSubset(subset, 'webfonts', { package: 'pro' });
