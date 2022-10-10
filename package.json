@@ -5,15 +5,13 @@
   "browserslist": "defaults",
   "scripts": {
     "watch": "nodemon -e js,yml --exec \"pnpm build\"",
-    "build": "npm-run-all clean copy subset compile",
+    "build": "npm-run-all clean copy subset:* compile:*",
     "clean": "rimraf css scss webfonts",
     "copy": "cpy 'node_modules/@fortawesome/fontawesome-pro/scss/*.scss' scss",
-    "subset": "npm-run-all -p subset-webfonts subset-variables",
-    "subset-webfonts": "node subset-webfonts.js",
-    "subset-variables": "node subset-variables.js",
-    "compile": "npm-run-all compile-compressed compile-expanded",
-    "compile-compressed": "sass scss:css --style compressed --no-source-map && renamer --force --silent --find .css --replace .min.css css/*",
-    "compile-expanded": "sass scss:css --no-source-map"
+    "subset:webfonts": "node subset-webfonts.js",
+    "subset:variables": "node subset-variables.js",
+    "compile:compressed": "sass scss:css --style compressed --no-source-map && renamer --force --silent --find .css --replace .min.css css/*",
+    "compile:expanded": "sass scss:css --no-source-map"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-pro": "^6.2.0",
