@@ -425,12 +425,12 @@ readers do not read off random characters that represent icons */
   content: "\f061";
 }
 
-.fa-house::before {
-  content: "\f015";
-}
-
 .fa-magnifying-glass::before {
   content: "\f002";
+}
+
+.fa-check::before {
+  content: "\f00c";
 }
 
 .sr-only,
