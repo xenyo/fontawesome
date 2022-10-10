@@ -2,18 +2,28 @@
   "name": "fontawesome",
   "private": true,
   "type": "module",
+  "browserslist": "defaults",
   "scripts": {
-    "build": "npm-run-all clean copy subset",
-    "clean": "rimraf css webfonts",
-    "copy": "cpy 'node_modules/@fortawesome/fontawesome-pro/css/*.css' css",
-    "subset": "node fontawesome-subset.js"
+    "watch": "nodemon -e js,yml --exec \"pnpm build\"",
+    "build": "npm-run-all clean copy subset compile",
+    "clean": "rimraf css scss webfonts",
+    "copy": "cpy 'node_modules/@fortawesome/fontawesome-pro/scss/*.scss' scss",
+    "subset": "npm-run-all -p subset-webfonts subset-variables",
+    "subset-webfonts": "node subset-webfonts.js",
+    "subset-variables": "node subset-variables.js",
+    "compile": "npm-run-all compile-compressed compile-expanded",
+    "compile-compressed": "sass scss:css --style compressed --no-source-map && renamer --force --silent --find .css --replace .min.css css/*",
+    "compile-expanded": "sass scss:css --no-source-map"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-pro": "^6.2.0",
     "cpy-cli": "^4.2.0",
     "fontawesome-subset": "^4.3.1",
+    "nodemon": "^2.0.20",
     "npm-run-all": "^4.1.5",
+    "renamer": "^4.0.0",
     "rimraf": "^3.0.2",
+    "sass": "^1.55.0",
     "yaml": "^2.1.3"
   }
 }

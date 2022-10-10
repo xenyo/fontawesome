@@ -1,3 +1,16 @@
+brands:
+  - facebook
+duotone:
+  - house
+light:
+  - house
 regular:
+  - house
   - arrow-right
   - magnifying-glass
+sharp-solid:
+  - house
+solid:
+  - house
+thin:
+  - house
