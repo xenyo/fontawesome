@@ -433,6 +433,10 @@ readers do not read off random characters that represent icons */
   content: "\f002";
 }
 
+.fa-xmark::before {
+  content: "\f00d";
+}
+
 .fa-check::before {
   content: "\f00c";
 }

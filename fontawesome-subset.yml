@@ -5,6 +5,7 @@ regular:
   - bars
   - check
   - magnifying-glass
+  - xmark
 light:
   - check
 thin:
