@@ -421,6 +421,10 @@
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
+.fa-bars::before {
+  content: "\f0c9";
+}
+
 .fa-arrow-right::before {
   content: "\f061";
 }

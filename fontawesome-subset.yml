@@ -2,6 +2,7 @@ solid:
   - check
 regular:
   - arrow-right
+  - bars
   - check
   - magnifying-glass
 light:
