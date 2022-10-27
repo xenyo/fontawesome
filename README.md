@@ -12,7 +12,7 @@ While this subset will still load more icons than needed for any individual site
 composer require xenyo/fontawesome
 ```
 
-The package should be installed to `web/libraries/fontawesome`.
+The package will be installed to `web/libraries/fontawesome`.
 
 ## Usage
 
@@ -22,7 +22,7 @@ Add an asset library to your `*.libraries.yml` with paths to the CSS files you w
 fontawesome:
   css:
     base:
-      /libraries/fontawesome/css/fontawesome.min.css: { preprocess: false }
+      /libraries/fontawesome/css/fontawesome.min.css: {}
       /libraries/fontawesome/css/solid.min.css: {}
       /libraries/fontawesome/css/regular.min.css: {}
       /libraries/fontawesome/css/light.min.css: {}
