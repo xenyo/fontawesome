@@ -1,9 +1,13 @@
 solid:
   - check
+  - pause
+  - play
 regular:
   - arrow-right
   - bars
   - check
+  - chevron-left
+  - chevron-right
   - magnifying-glass
   - xmark
 light:
