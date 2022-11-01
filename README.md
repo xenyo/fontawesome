@@ -1,6 +1,6 @@
 # xenyo/fontawesome
 
-A Drupal library providing an append-only subset of Font Awesome icons.
+A Drupal library providing a curated subset of Font Awesome icons.
 
 This package is meant to be shared between multiple, possibly unrelated sites. The "append-only" policy ensures that updates will not break backwards compatibility.
 
