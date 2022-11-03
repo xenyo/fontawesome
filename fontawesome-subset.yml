@@ -6,12 +6,12 @@ regular:
   - arrow-right
   - bars
   - check
-  - chevron-left
-  - chevron-right
   - magnifying-glass
   - xmark
 light:
   - check
+  - chevron-left
+  - chevron-right
 thin:
   - check
 duotone:
