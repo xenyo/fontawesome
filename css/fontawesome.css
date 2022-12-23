@@ -425,6 +425,10 @@ readers do not read off random characters that represent icons */
   content: "\f0c9";
 }
 
+.fa-chevron-up::before {
+  content: "\f077";
+}
+
 .fa-pause::before {
   content: "\f04c";
 }
@@ -439,6 +443,10 @@ readers do not read off random characters that represent icons */
 
 .fa-magnifying-glass::before {
   content: "\f002";
+}
+
+.fa-chevron-down::before {
+  content: "\f078";
 }
 
 .fa-xmark::before {

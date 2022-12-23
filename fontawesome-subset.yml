@@ -10,8 +10,10 @@ regular:
   - xmark
 light:
   - check
+  - chevron-down
   - chevron-left
   - chevron-right
+  - chevron-up
 thin:
   - check
 duotone:
