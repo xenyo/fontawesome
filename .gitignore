@@ -4,6 +4,7 @@
 
 # NPM
 /node_modules/
+.npmrc
 
 # Parcel
 /.parcel-cache/

@@ -4,7 +4,7 @@
   "type": "module",
   "browserslist": "defaults",
   "scripts": {
-    "watch": "nodemon -e js,yml --exec \"pnpm build\"",
+    "watch": "nodemon -e js,yml --exec \"npm run build\"",
     "build": "npm-run-all clean copy subset:* compile:*",
     "clean": "rimraf css scss webfonts",
     "copy": "cpy 'node_modules/@fortawesome/fontawesome-pro/scss/*.scss' scss",
