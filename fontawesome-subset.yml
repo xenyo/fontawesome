@@ -4,6 +4,8 @@ solid:
   - play
 regular:
   - arrow-right
+  - arrows-from-line
+  - arrows-to-line
   - bars
   - check
   - magnifying-glass

@@ -441,8 +441,16 @@ readers do not read off random characters that represent icons */
   content: "\f061";
 }
 
+.fa-arrows-to-line::before {
+  content: "\e0a7";
+}
+
 .fa-angle-down::before {
   content: "\f107";
+}
+
+.fa-arrows-from-line::before {
+  content: "\e0a4";
 }
 
 .fa-play::before {
