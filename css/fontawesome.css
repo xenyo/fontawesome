@@ -429,12 +429,20 @@ readers do not read off random characters that represent icons */
   content: "\f077";
 }
 
+.fa-angle-right::before {
+  content: "\f105";
+}
+
 .fa-pause::before {
   content: "\f04c";
 }
 
 .fa-arrow-right::before {
   content: "\f061";
+}
+
+.fa-angle-down::before {
+  content: "\f107";
 }
 
 .fa-play::before {
@@ -453,6 +461,10 @@ readers do not read off random characters that represent icons */
   content: "\f00d";
 }
 
+.fa-angle-up::before {
+  content: "\f106";
+}
+
 .fa-chevron-left::before {
   content: "\f053";
 }
@@ -463,6 +475,10 @@ readers do not read off random characters that represent icons */
 
 .fa-check::before {
   content: "\f00c";
+}
+
+.fa-angle-left::before {
+  content: "\f104";
 }
 
 .sr-only,
