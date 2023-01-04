@@ -3,11 +3,19 @@ solid:
   - pause
   - play
 regular:
+  - angle-down
+  - angle-left
+  - angle-right
+  - angle-up
   - arrow-right
   - arrows-from-line
   - arrows-to-line
   - bars
   - check
+  - chevron-down
+  - chevron-left
+  - chevron-right
+  - chevron-up
   - magnifying-glass
   - xmark
 light:
