@@ -19,15 +19,20 @@ regular:
   - magnifying-glass
   - xmark
 light:
-  - check
   - angle-down
   - angle-left
   - angle-right
   - angle-up
+  - arrow-cursor
+  - check
   - chevron-down
   - chevron-left
   - chevron-right
   - chevron-up
+  - file
+  - file-pdf
+  - file-word
+  - share-from-square
 thin:
   - check
 duotone:

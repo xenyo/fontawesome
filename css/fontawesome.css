@@ -437,6 +437,10 @@ readers do not read off random characters that represent icons */
   content: "\f04c";
 }
 
+.fa-file-word::before {
+  content: "\f1c2";
+}
+
 .fa-arrow-right::before {
   content: "\f061";
 }
@@ -445,12 +449,20 @@ readers do not read off random characters that represent icons */
   content: "\e0a7";
 }
 
+.fa-file-pdf::before {
+  content: "\f1c1";
+}
+
 .fa-angle-down::before {
   content: "\f107";
 }
 
 .fa-arrows-from-line::before {
   content: "\e0a4";
+}
+
+.fa-file::before {
+  content: "\f15b";
 }
 
 .fa-play::before {
@@ -463,6 +475,10 @@ readers do not read off random characters that represent icons */
 
 .fa-chevron-down::before {
   content: "\f078";
+}
+
+.fa-share-from-square::before {
+  content: "\f14d";
 }
 
 .fa-xmark::before {
