@@ -433,6 +433,10 @@ readers do not read off random characters that represent icons */
   content: "\f105";
 }
 
+.fa-arrow-pointer::before {
+  content: "\f245";
+}
+
 .fa-pause::before {
   content: "\f04c";
 }
